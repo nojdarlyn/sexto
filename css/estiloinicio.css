@@ -1,0 +1,88 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font: 1.2rem;
+    line-height: 1.4em;
+    
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em; /* Aplicar interlineado al texto */
+}
+
+p{
+    margin-bottom: 1.6mm;
+}
+
+.contenedor{
+    width: 85%;
+    max-width: 850px; /* Ancho que tendran los contenedores */
+    margin: 0 auto;
+}
+
+.header{
+    background: #DC143C;
+    color: whitesmoke;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between; /*para el logo y la lista hacia los lados*/
+    align-items: center;
+}
+
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navigator ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigator ul li{
+    display: inline-block;
+}
+
+.navigator ul li a{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.7s linear;
+    
+
+}
+
+.navigator ul li a:hover{
+    background: coral;
+    border-radius: 5px
+}
+
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+
+.footer{
+    background: #f2f2f2;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+main{
+    padding-top: 6rem; /*bajar el texto que queda detras de la barra de navegación*/
+}
+
+.img{
+    width: 250px;
+    float: left;
+}
